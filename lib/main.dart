@@ -20,26 +20,12 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => AuthCubit(),
       child: MaterialApp(
-        title: 'Vide Alpha',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        debugShowCheckedModeBanner: false,
-        home: BlocBuilder<AuthCubit, AuthState>(
-          buildWhen: (oldState, newState) {
-            return oldState is AuthInitialState;
-          },
-          builder: (context, state) {
-            if (state is AuthLoggedInState) {
-              return const SplashScreen();
-            } else if (state is AuthLogOutState) {
-              return const LoginScreen();
-            } else {
-              return const SplashScreen();
-            }
-          },
-        ),
-      ),
+          title: 'Vide Alpha',
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+          ),
+          debugShowCheckedModeBanner: false,
+          home: const SplashScreen()),
     );
   }
 }
