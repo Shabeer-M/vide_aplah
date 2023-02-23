@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "919896917549",
+    "project_id": "videalpha-a426a",
+    "storage_bucket": "videalpha-a426a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919896917549:android:f182ec4ea42372e5525aa4",
+        "android_client_info": {
+          "package_name": "com.example.videalpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919896917549-f0tkeskb3qrod8bp7811trfj9srkst2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videalpha",
+            "certificate_hash": "dfc43278378b10611b1ca300ffd17a95c5825a23"
+          }
+        },
+        {
+          "client_id": "919896917549-mgtgjtmlbhs0eum9uuapd4k3pbein9rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOrZSLGGqhZ1XkXOmTgEaX3EY1u-IFQxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919896917549-mgtgjtmlbhs0eum9uuapd4k3pbein9rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

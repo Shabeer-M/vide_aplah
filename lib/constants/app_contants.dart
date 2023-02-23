@@ -1,0 +1,11 @@
+const String appName = "Friendly";
+const String loginText = "Login";
+const String resendOtpText = "Resend New Code";
+const String notRecivedOtpText = "Didn't receive any code?";
+const String verifyText = "Verify";
+const String verificationText = "Verification";
+const String splashScreenImage = "https://i.pinimg.com/564x/03/80/bf/0380bf2f20c913cb996e3142efff6f83.jpg";
+const String loginScreenImage = "https://i.pinimg.com/564x/7d/d2/db/7dd2db5eabb4336d9100d3fc0a2151e8.jpg";
+const String verifyScreenGif = "https://i.pinimg.com/originals/c5/76/d5/c576d5d9bff37d2d657ac0fa749433fb.gif";
+const String loginToVideAlphaTitle = "Sign-in to your Vide Alpha account";
+const String loggedSuccessfullyMessage = "Logged Successfully";
